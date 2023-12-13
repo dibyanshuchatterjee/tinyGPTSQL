@@ -30,6 +30,12 @@ The model is trained on SQL data using independent sequences processed in parall
 ## n_layer: Number of transformer blocks.
 ## dropout: Dropout probability.
 
+
+# Modules:
+## prepare_corpus and preprocess_data - For data preparation and preprocessing
+## LLM-Pretraining - The actual model implementation
+## test - Implements the model architecture and helps to load and test the model
+
 # Dependencies
 Pytorch
 
